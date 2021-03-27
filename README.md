@@ -1,3 +1,19 @@
+## Tech:
+## FrontEnd - HTTML5, CSS3, Tailwind CSS, Blade templates
+## Backend - PHP, Laravel Breeze, MySQL 
+
+### Features:
+<p>Responsive design</p>
+<p>Product, Blog, Package views</p>
+<p>Stored Packages, Products, Blogs in MySQL Database</p>
+<p>Login, Logout, Register, Delete User Account</p>
+<p>Algolia product search integration</p>
+<p>2 Factor authentification</p>
+<p>Adding products to shopping cart</p>
+<p>Email notifications</p>
+<p>Stripe payment integration</p>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
