@@ -116,7 +116,7 @@
             <input type="checkbox" class="hidden" id="menu-toggle">
 
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full bg-white bg-cover" id="menu">
-                <nav class="w-full h-full pl-4">
+                <nav class="w-full h-full px-4">
                     <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
                         <li>
                             <a href="/" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent
@@ -340,7 +340,7 @@
 </section>
 
 <!-- About us -->
-<section class="container mx-auto px-20 s:px-0 py-16 s:py-0 sm:py-8 lg:py-12">
+<section class="container mx-auto px-8 sm:px-20 py-16 s:py-0 sm:py-8 lg:py-12">
     <div class="flex justify-between border-b border-indigo-200 pb-5">
         <h2 class="text-2xl">About us</h2>
     </div>
@@ -374,7 +374,7 @@
 
 <!-- Blog Posts -->
 <section class="container mx-auto sm:w-full sm:h-full md:flex-row md:flex-wrap py-16 sm:py-8 bg-no-repeat bg-cover bg-center bg-auto h-auto overflow-hidden bg-fixed" style="background-image: url(https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/other-image-fullscren-1-1920x900.jpg)">
-    <div class="px-20">
+    <div class="px-8 sm:px-20">
         <div class="flex justify-between border-b border-white pb-5">
             <h2 class="text-2xl text-white">Latest Blog Posts</h2>
             <div class="inline-flex">

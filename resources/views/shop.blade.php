@@ -96,7 +96,7 @@
                 <input type="checkbox" class="hidden" id="menu-toggle">
 
                 <div class="hidden lg:flex lg:items-center lg:w-auto w-full bg-white bg-cover" id="menu">
-                    <nav>
+                    <nav class="w-full h-full px-4">
                         <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
                             <li>
                                 <a href="/" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent
