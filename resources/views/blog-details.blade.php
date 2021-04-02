@@ -165,58 +165,58 @@
 <!-- Background Image -->
 <section class="relative">
     <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
-    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Lorem ipsum dolor</p>
 </section>
 
 <!-- Content -->
 <section class="container mx-auto">
-    <div class="py-10 px-20 flex flex-wrap">
+    <div class="py-4 sm:py-10 px-8 sm:px-20 flex flex-wrap">
         <h2 class="text-3xl font-bold">{{$blog->title}}</h2>
-        <div class="w-full h-full py-16 flex flex-col align-middle">
+        <div class="w-full h-full py-4 sm:py-16 flex flex-col align-middle">
             <img src="/{{$blog->img}}" alt="Image">
             <p class="text-center text-2xl pt-6">{{$blog->date}} | {{$blog->number}}</p>
         </div>
-        <div class="w-3/4 pr-10">
-            <p class="py-8 sm:text-justify">{{$blog->content}}</p>
-            <p class="pb-6  sm:text-justify">
+        <div class="w-full sm:w-3/4 sm:pr-10">
+            <p class="py-8 text-justify sm:text-justify">{{$blog->content}}</p>
+            <p class="pb-6 text-justify sm:text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, consequatur, magnam. Dolorum vitae a vel quisquam.
                 Fuga quia suscipit id veritatis sint earum impedit corporis quidem eum consectetur ipsam ex sequi ad, distinctio
                 enim tenetur eveniet eligendi. Laborum, sapiente, magnam.
             </p>
-            <h2 class="font-bold text-lg pb-6 sm:text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, modi.</h2>
-            <p class="pb-6 sm:text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam officia in adipisci. Corporis rem beatae
+            <h2 class="font-bold text-lg pb-6 text-justify sm:text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, modi.</h2>
+            <p class="pb-6 text-justify sm:text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam officia in adipisci. Corporis rem beatae
                 cupiditate neque consequuntur necessitatibus expedita laudantium temporibus quam ex quidem, aut non blanditiis
                 soluta deserunt dolores mollitia repudiandae voluptatibus perspiciatis dolor quos distinctio! Atque, magnam.
             </p>
-            <p class="pb-6 sm:text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt dolore ducimus, ad itaque reprehenderit
+            <p class="pb-6 text-justify sm:text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt dolore ducimus, ad itaque reprehenderit
                 repellat dignissimos, qui velit dolores voluptas.
             </p>
         </div>
-        <div class="w-1/4">
+        <div class="w-full sm:w-1/4">
             <h2 class="py-8 font-bold text-2xl">Lorem ipsum dolor sit amet.</h2>
-            <p class="pb-6 sm:text-justify">
+            <p class="pb-6 text-justify sm:text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.
             </p>
-            <p class="sm:text-justify">
+            <p class="text-justify sm:text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, minus?
             </p>
         </div>
     </div>
-    <div class="w-full h-full px-20 pb-16">
+    <div class="w-full h-full px-8 sm:px-20 pb-4 sm:pb-16">
         <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-image-fullscren-1-1920x700.jpg" alt="Image">
     </div>
-    <div class="container mx-auto px-20 flex flex-row justify-end text-lg">
+    <div class="container mx-auto px-8 sm:px-20 flex flex-row justify-end text-lg pb-10">
        by&nbsp; <strong> {{$blog->fullname}}</strong>
     </div>
-    <div class="px-20">
+    <div class="px-8 sm:px-20">
         <div class="flex justify-between border-b border-blue-200 pb-5">
             <h2 class="text-2xl">Leave a Comment</h2>
         </div>
     </div>
 
-    <div class="py-10 flex flex-wrap px-20">
-        <div class="xl:w-3/5 sm:w-full">
+    <div class="py-10 flex flex-wrap px-8 sm:px-20">
+        <div class="w-full xl:w-3/5 sm:w-full">
             <form action="/blogsaction" method="POST" id="comment">
                 @csrf
                 <div class="w-full pb-10">
@@ -239,7 +239,7 @@
                     </div>
                 </div>
 
-                <div class="pt-10">
+                <div class="sm:pt-10 py-10">
                     <fieldset>
                         <button type="submit" id="form-submit" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-400">Submit</button>
                     </fieldset>
@@ -247,7 +247,7 @@
             </form>
         </div>
         <div class="xl:w-2/5 xl:pl-10 xl:pt-0 sm:w-full sm:pl-0 sm:pt-8">
-            <p>
+            <p class="text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.
                 Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.
             </p>
@@ -272,7 +272,7 @@
 
 
 <!-- Footer -->
-<footer class="px-20 pt-20">
+<footer class="px-8 sm:px-20 pt-20">
     <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>
