@@ -164,8 +164,8 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="h-full w-full opacity-50 relative">
-    <p class="absolute inset-56 text-center text-indigo-500 font-bold xl:text-5xl sm:text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
 </section>
 
 <!-- Content -->

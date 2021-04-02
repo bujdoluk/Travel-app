@@ -164,29 +164,29 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="h-full w-full opacity-50 relative">
-    <p class="absolute inset-56 text-center text-indigo-500 font-bold text-6xl">Contact Us</p>
+    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Contact Us</p>
 </section>
 
 <section class="container mx-auto">
-    <div class="px-20 py-8 sm:py-6">
+    <div class="px-8 sm:px-20 py-8 sm:py-6">
         <div class="flex justify-between border-b border-blue-200 pb-5">
             <h2 class="text-3xl">Our Location on Maps</h2>
         </div>
     </div>
 
-    <div class="flex flex-wrap px-20 py-6 sm:py-0">
-        <div class="xl:w-4/6 sm:w-full pr-10">
+    <div class="flex flex-wrap px-8 sm:px-20 py-6 sm:py-0">
+        <div class="xl:w-4/6 sm:w-full sm:pr-10">
             <iframe class="xl:pt-10 sm:pt-5" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11628.751733874766!2d27.948302749999996!3d43.22651925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbg!4v1592215682178!5m2!1sen!2sbg" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
             </iframe>
         </div>
 
         <div class="xl:w-2/6 sm:w-full py-6">
             <h2 class="font-bold text-lg py-2">About our office</h2>
-            <p>
+            <p class="text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.
             </p>
-            <p class="py-2">
+            <p class="py-2 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.
             </p>
             <div class="border-b border-blue-200 py-4">
@@ -210,17 +210,17 @@
 </section>
 
 <section class="container mx-auto">
-    <div class="px-20 py-8">
+    <div class="sm:px-20 px-8 py-8">
         <div class="flex justify-between border-b border-blue-200 pb-5">
             <h2 class="text-3xl">Send us a Message</h2>
         </div>
     </div>
 
-    <div class="xl:py-10 sm:py-5 flex flex-wrap px-20">
-        <div class="xl:w-3/5 sm:w-full">
+    <div class="xl:py-10 sm:py-5 flex flex-wrap sm:px-20 px-8">
+        <div class="xl:w-3/5 w-full">
             <form action="/contactaction" method="POST" id="contact">
                 @csrf
-                <div class="w-full pb-10  pr-10">
+                <div class="w-full pb-10  sm:pr-10">
                     <fieldset class="flex">
                         <input type="text" value="{{ old('name') }}" name="name" class="form-control flex-grow rounded" id="name" placeholder=" Full Name" required=" ">
                         @error('name')
@@ -234,7 +234,7 @@
                     </fieldset>
                 </div>
 
-                <div class="w-full pr-10">
+                <div class="w-full sm:pr-10">
                     <fieldset class="flex pb-10">
                         <input type="email" value="{{ old('email') }}" name="email" class="form-control flex-grow rounded" id="email" placeholder=" Email" required=" ">
                         @error('email')
@@ -248,7 +248,7 @@
                     </fieldset>
                 </div>
 
-                <div class="w-full  pr-10">
+                <div class="w-full sm:pr-10">
                     <fieldset class="flex pb-10">
                         <input type="text" value="{{ old('subject') }}" name="subject" class="form-control flex-grow rounded" id="subject" placeholder=" Subject" required=" ">
                         @error('subject')
@@ -263,7 +263,7 @@
                 </div>
 
                 <div class="flex flex-wrap">
-                    <div class="w-full  pr-10">
+                    <div class="w-full sm:pr-10">
                         <fieldset class="flex">
                             <textarea name="message" value="{{ old('message') }}" rows="6" class="form-control flex-grow rounded" id="message" placeholder="  Your Messages" required=""></textarea>
                             @error('message')
@@ -278,7 +278,7 @@
                     </div>
                 </div>
 
-                <div class="pt-10">
+                <div class="py-10 flex justify-center">
                     <fieldset>
                         <button type="submit" value="Submit" id="form-submit" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-600">Send Message</button>
                     </fieldset>
@@ -294,7 +294,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="px-20 pt-20">
+<footer class="px-8 sm:px-20 pt-12 sm:pt-20">
     <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>

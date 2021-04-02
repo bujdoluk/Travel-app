@@ -217,7 +217,7 @@
     </div>
 </section>
 
-<!-- Algolia Search -->
+{{--<!-- Algolia Search -->
 <section class="py-20 bg-gray-100">
     <div class="container mx-auto bg-gray-100 rounded">
         <!--        <div id="autocomplete"></div>-->
@@ -225,7 +225,7 @@
         <div id="hits"></div>
         <div id="pagination"></div>
     </div>
-</section>
+</section>--}}
 
 
 <!-- Features / Cards -->
@@ -346,9 +346,9 @@
     </div>
 
     <div class="container mx-auto s:mx-0">
-        <div class="flex inline-flex flex-wrap pt-16 sm:pt-8 lg:pt-12">
-            <div class="w-1/2 s:text-justify sm:text-justify sm:w-full lg:w-1/2">
-                <p class="pb-8 sm:pb-4 lg:pb-6 pr-10">Lorem ipsum dolor sit amet, <a href="#" class="text-indigo-500">consectetur</a> adipisicing elit.
+        <div class="flex inline-flex flex-wrap pt-8 sm:pt-16 sm:pt-8 lg:pt-12">
+            <div class="w-full sm:w-1/2 text-justify s:text-justify sm:text-justify sm:w-full lg:w-1/2">
+                <p class="pb-8 sm:pb-4 lg:pb-6 sm:pr-10">Lorem ipsum dolor sit amet, <a href="#" class="text-indigo-500">consectetur</a> adipisicing elit.
                     Aperiam asperiores consectetur dicta error eum ipsa
                     laborum perferendis quia sunt <a href="#" class="text-indigo-500">tenerur</a>. At ea,
                     incidunt laborum magnam omnis porro ullam vero voluptate.
@@ -359,7 +359,7 @@
                     <li class="pb-3 list-disc">Lorem ipsum dolor sit amet</li>
                     <li class="pb-3 list-disc">Lorem ipsum dolor sit amet</li>
                 </ul>
-                <div class="sm:text-center lg:text-left pb-8">
+                <div class="text-center sm:text-center lg:text-left pb-8">
                     <a href="/more-aboutus" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-600">
                         Read more
                     </a>
@@ -373,7 +373,7 @@
 </section>
 
 <!-- Blog Posts -->
-<section class="container mx-auto w-full h-full md:flex-row md:flex-wrap py-16 sm:py-8 bg-no-repeat bg-cover bg-center bg-auto h-auto overflow-hidden bg-fixed" style="background-image: url(https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/other-image-fullscren-1-1920x900.jpg)">
+<section class="container mx-auto sm:w-full sm:h-full md:flex-row md:flex-wrap py-16 sm:py-8 bg-no-repeat bg-cover bg-center bg-auto h-auto overflow-hidden bg-fixed" style="background-image: url(https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/other-image-fullscren-1-1920x900.jpg)">
     <div class="px-20">
         <div class="flex justify-between border-b border-white pb-5">
             <h2 class="text-2xl text-white">Latest Blog Posts</h2>
@@ -386,7 +386,7 @@
         <div class="my-12">
             <div class="flex flex-wrap -mx-1 lg:mx-4">
                 <!-- Blog Post 1 -->
-                <div class="my-1 w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
+                <div class="my-1 sm:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                     <article class="shadow-lg bg-white">
                         <a href="/blog">
                             <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-1-370x270.jpg">
@@ -408,7 +408,7 @@
                 </div>
 
                 <!-- Blog Post 2 -->
-                <div class="my-1  w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
+                <div class="my-1  sm:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                     <article class="shadow-lg bg-white">
                         <a href="#">
                             <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-2-370x270.jpg">
@@ -430,7 +430,7 @@
                 </div>
 
                 <!-- Blog Post 3 -->
-                <div class="my-1  w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
+                <div class="my-1 sm:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                     <article class="shadow-lg bg-white">
                         <a href="#">
                             <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-3-370x270.jpg">
@@ -545,10 +545,10 @@
 <!-- Call to Action -->
 <section class="container mx-auto px-20 py-20 sm:py-10">
     <div class="flex flex-col md:flex-row items-center justify-between relative w-100 h-auto md:h-64 bg-100 shadow-2xl rounded-lg p-8 bg-gray-200">
-        <div class="w-8/12 text-2xl sm:w-full sm:text-justify md:w-8/12 md:text-left">
+        <div class="w-8/12 sm:w-full sm:text-justify md:w-8/12 md:text-left">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" class="fill-current text-indigo-500 float-left mr-1"><path d="M10 5v5h2.75L11 13h2.25L15 10V5h-5zm-7 5h2.75L4 13h2.25L8 10V5H3v5z"/></svg>
-            <span class="flex">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
+            <span class="flex text-lg sm:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+            <p class="text-lg sm:text-2xl text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
         </div>
         <div class="relative shadow-md font-medium my-5 py-2 px-4 text-white cursor-pointer bg-indigo-500 hover:bg-indigo-600 rounded text-lg text-center w-48">
             <span class="absolute h-3 w-3 right-0 top-0 animate-ping inline-flex rounded-full h-3 w-3 bg-indigo-600">
@@ -607,7 +607,7 @@
     </div>
 </section>
 
-<script src="{{ asset('js/algolia.js') }}"></script>
+{{--<script src="{{ asset('js/algolia.js') }}"></script>--}}
 
 <script>
     /* Swiper */

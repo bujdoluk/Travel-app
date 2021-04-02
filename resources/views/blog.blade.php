@@ -165,14 +165,13 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="h-full w-full opacity-50 relative">
-    <p class="absolute inset-36 text-center text-indigo-500 font-bold text-6xl">Blog</p>
+    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Blog</p>
 </section>
 
-<section class="container mx-auto px-20 py-20">
-
+<section class="container mx-auto px-8 sm:px-20 py-8 sm:py-20">
     <div class="flex flex-wrap items-start">
-        <div class="w-2/3 sm:w-full xl:w-2/3">
+        <div class="sm:w-2/3 w-full sm:w-full xl:w-2/3">
             <!-- Blog Posts -->
             <div class="xl:grid xl:grid-cols-2 sm:grid sm:grid-cols-1 sm:gap-0 xl:gap-8 w-full">
                 <!-- Blog -->
@@ -189,7 +188,7 @@
                 </div>
                 @endforeach
             </div>
-            <div class="px-20 pt-20">
+            <div class="px-8 sm:px-20 pt-8 sm:pt-20">
                 {{ $blogs->onEachSide(6)->links() }}
             </div>
             <!-- Pagination -->
@@ -215,16 +214,16 @@
             </div>-->
         </div>
         <!-- Search -->
-        <div class="grid grid-cols-1 xl:w-1/3 sm:w-full pl-10">
-            <h2 class="text-2xl font-medium pb-6">Blog Search</h2>
+        <div class="w-full sm:grid sm:grid-cols-1 xl:w-1/3 sm:w-full sm:pl-10">
+            <h2 class="text-2xl font-medium pb-6 pt-6">Blog Search</h2>
             <div>
-                <div class="flex flex-row pb-5">
-                    <div class="pr-5">
+                <div class="flex flex-col sm:flex sm:flex-row sm:pb-5">
+                    <div class="pr-5 pb-4">
                         <fieldset>
-                            <input type="text" class="rounded" name="search" id="search" placeholder=" Search" required=" ">
+                            <input type="text" class="rounded w-full" name="search" id="search" placeholder=" Search" required=" ">
                         </fieldset>
                     </div>
-                    <div class="pt-2">
+                    <div class="sm:pt-2 py-4">
                         <a href="/more-aboutus" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-600">
                             Go
                         </a>
@@ -240,7 +239,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="px-20 pt-12">
+<footer class="px-8 sm:px-20 pt-12">
     <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>

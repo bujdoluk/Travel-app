@@ -164,14 +164,14 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="h-full w-full opacity-50 relative">
-    <p class="absolute inset-56 text-center text-indigo-500 font-bold text-6xl">Packages</p>
+    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-auto w-full opacity-50 relative">
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Packages</p>
 </section>
 
 <!-- Features / Cards -->
-<section class="pt-28 px-20">
+<section class="sm:pt-28 sm:px-20">
     <div class="container my-12 mx-auto">
-        <div class="grid grid-cols-3 flex-wrap -mx-1 lg:mx-4 ">
+        <div class="sm:grid sm:grid-cols-3 flex-wrap -mx-1 lg:mx-4 ">
             @foreach($packages as $package)
                 <!-- Card -->
                 <a href="packages/create">
@@ -182,9 +182,9 @@
                                 <h1 class="text-xl pl-2 font-bold">{{ $package->name }}</h1>
                                 <p class="text-gray-500 text-sm">{{$package->date}}</p>
                             </header>
-                            <h1 class="lg:text-2xl p-2 md:px-4 font-bold">{{$package->price}}$</h1>
-                            <p class="text-sm p-2 md:px-4">{{$package->description}}</p>
-                            <div class="flex items-center justify-start p-2 md:p-4">
+                            <h1 class="lg:text-2xl pl-4 py-2 md:px-4 font-bold">{{$package->price}}$</h1>
+                            <p class="text-sm pl-4 md:px-4">{{$package->description}}</p>
+                            <div class="flex items-center justify-start pl-4 py-4 md:p-4">
                                 <div class="flex items-center">
                                     <svg class="pr-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
                                     <p class="pr-2.5 text-sm">{{$package->period}}</p>
@@ -231,7 +231,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="px-20 pt-10">
+<footer class="px-4 sm:px-20 pt-10">
     <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>
@@ -296,7 +296,7 @@
         }
     }
 
-    /*  Pagination */
+    /*/!*  Pagination *!/
 
     window.addEventListener('DOMContentLoaded',
         () => {
@@ -337,7 +337,7 @@
     function makeInactive(el) {
         el.classList.remove('bg-indigo-500', 'text-white');
         el.classList.add('hover:bg-indigo-500');
-    }
+    }*/
 
 
     /*  Banner modal popup */

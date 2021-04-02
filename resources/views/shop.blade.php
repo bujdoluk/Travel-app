@@ -169,9 +169,9 @@
             @foreach($products as $product)
                 <!-- Card -->
                     <a href="{{ route('shop.show', $product->slug) }}">
-                        <div class="relative w-full sm:py-12">
+                        <div class="sm:relative sm:w-full sm:py-12 flex flex-col">
                             <img class="rounded-lg object-cover w-full h-full" src="/{{ $product->images }}" alt="Image">
-                            <div class="absolute sm:left-8 sm:right-8 sm:-bottom-4 bg-white sm:w-auto h-auto rounded p-4">
+                            <div class="sm:absolute sm:left-8 sm:right-8 sm:-bottom-4 bg-white sm:w-auto h-auto rounded p-4">
                                 <div class="inline-flex font-bold uppercase">
                                     <p class="bg-indigo-500 text-white p-1 rounded">Plus</p>
                                     <p class="sm:pl-3 text-gray-600 p-1">{{ $product->bedroom }} bed</p>

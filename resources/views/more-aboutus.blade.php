@@ -165,12 +165,12 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="h-full w-full opacity-50 relative">
-    <p class="absolute sm:hidden md:block inset-56 text-center text-indigo-500 font-bold xl:text-6xl s:text-sm sm:text-xl">Our Company</p>
+    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20  h-full w-full opacity-50 relative">
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Our Company</p>
 </section>
 
 <!-- Section 1 -->
-<section class="container mx-auto px-20 py-16">
+<section class="container mx-auto px-8 sm:px-20 py-16">
     <div class="flex justify-between border-b border-blue-200 pb-5">
         <h2 class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing</h2>
     </div>
@@ -182,15 +182,15 @@
         </div>
         <!-- Content -->
         <div class="xl:w-full sm:w-full px-6">
-            <h2 class="font-bold lg:text-2xl pb-4">
+            <h2 class="font-bold text-lg lg:text-2xl py-4">
                 Lorem ipsum dolor sit amet.
             </h2>
-            <p class="pb-8 pr-10">Lorem ipsum dolor sit amet, <a href="#" class="text-indigo-500">consectetur</a> adipisicing elit.
+            <p class="pb-8 sm:pr-10 text-justify">Lorem ipsum dolor sit amet, <a href="#" class="text-indigo-500">consectetur</a> adipisicing elit.
                 Aperiam asperiores consectetur dicta error eum ipsa
                 laborum perferendis quia sunt <a href="#" class="text-indigo-500">tenerur</a>. At ea,
                 incidunt laborum magnam omnis porro ullam vero voluptate.
             </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil
                 eum consectetur similique? Consectetur, quod, incidunt.
             </p>
             <div class="px-10 border-indigo-200 border-b pb-8"></div>
@@ -213,23 +213,23 @@
 </section>
 
 <!-- Section 2 -->
-<section class="container mx-auto px-20 py-10">
-    <h2 class="font-bold lg:text-2xl border-b border-indigo-200 pb-4">
+<section class="container mx-auto px-8 sm:px-20 py-10">
+    <h2 class="font-bold text-lg lg:text-2xl border-b border-indigo-200 pb-4">
         Lorem ipsum dolor sit amet.
     </h2>
     <h2 class="font-bold text-lg pt-10">Lorem ipsum dolor sit amet.</h2>
-    <p class="pb-8 pr-10">Lorem ipsum dolor sit amet, <a href="#" class="text-indigo-500">consectetur</a> adipisicing elit.
+    <p class="pb-8 sm:pr-10 text-justify">Lorem ipsum dolor sit amet, <a href="#" class="text-indigo-500">consectetur</a> adipisicing elit.
         Aperiam asperiores consectetur dicta error eum ipsa
         laborum perferendis quia sunt <a href="#" class="text-indigo-500">tenerur</a>. At ea,
         incidunt laborum magnam omnis porro ullam vero voluptate.
     </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil
         eum consectetur similique? Consectetur, quod, incidunt.
     </p>
 </section>
 
 <!-- Footer -->
-<footer class="px-20 pt-12">
+<footer class="px-8 sm:px-20 pt-12">
     <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>
