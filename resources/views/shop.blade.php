@@ -164,7 +164,7 @@
         </header>
     </section>
 
-    <section class="container mx-auto sm:py-20 xl:py-20 bg-gray-100">
+    <section class="container mx-auto sm:py-20 xl:py-20 bg-gray-100 pt-20">
         <div class="sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:px-12 lg:py-12 lg:gap-6 xl:grid-cols-3 3xl:grid-cols-4 sm:px-6 xl:px-20 sm:py-6 xl:py-20 w-auto h-auto bg-gray-100">
             @foreach($products as $product)
                 <!-- Card -->
@@ -199,7 +199,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="px-20 pt-20 sm:pt-8">
+    <footer class="px-8 sm:px-20 pt-20 sm:pt-8">
         <div class="flex justify-center border-t border-blue-200 pt-16 sm:pt-8 py-16">
             <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
         </div>

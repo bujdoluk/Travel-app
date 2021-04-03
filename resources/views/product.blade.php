@@ -160,12 +160,12 @@
     </section>
 
 
-    <section class="container mx-auto w-full flex flex-row py-44 px-64">
-        <div class="w-1/2">
+    <section class="sm:container mx-auto w-full flex flex-col sm:flex-row pt-24 sm:py-24 md:py-32 lg:py-44 px-8 sm:px-24 md:px-36 lg:px-64">
+        <div class="w-full sm:w-1/2">
             <img src="/{{ $product->images }}" alt="Product">
         </div>
-        <div class="w-1/2 flex flex-col pl-8">
-            <h1 class="font-bold text-3xl mb-5">{{ $product->name }}</h1>
+        <div class="w-full sm:w-1/2 flex flex-col sm:pl-8">
+            <h1 class="font-bold text-2xl sm:text-3xl mb-5">{{ $product->name }}</h1>
             <h2 class="mb-3"><span class="font-bold text-2xl">{{ $product->price }}$</span> /week</h2>
             <div class="flex flex-row">
                 <p class="mr-3"><span class="font-bold text-xl">{{ $product->bedroom }}</span> bedroom</p>
@@ -173,7 +173,7 @@
             </div>
             <p class="text-justify mb-3">{{ $product->description }}</p>
             <p class="font-bold mb-7 text-xl">{{ $product->reviews }} reviews</p>
-            <div class="sm:text-center lg:text-left">
+            <div class="flex justify-center sm:text-center lg:text-left">
                 <a href="{{ route('cart.add', $product->id) }}" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-600">
                     Add to Shopping Cart
                 </a>

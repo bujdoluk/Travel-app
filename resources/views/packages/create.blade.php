@@ -168,12 +168,12 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="h-full w-full opacity-50">
-    <p class="absolute inset-56 text-center text-indigo-500 font-bold text-6xl">Packages-details</p>
+    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50">
+    <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Packages-details</p>
 </section>
 
 <!-- Pictures -->
-<section class="container mx-auto h-full w-auto px-20 xl:py-20 sm:py-10 flex flex-wrap align-top">
+<section class="container mx-auto h-full w-auto px-8 sm:px-20 xl:py-20 py-6 sm:py-10 flex flex-wrap align-top">
     <div class="flex flex-wrap xl:w-1/2 sm:w-full h-full pb-4">
         <div class="pb-5 xl:w-full xl:h-full">
             <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-details-1-740x540.jpg" alt="Image">
@@ -191,7 +191,7 @@
         </div>
     </div>
 
-    <div class="xl:w-1/2 sm:w-full h-full px-10 xl:pb-4 sm:pb-0 flex flex-wrap">
+    <div class="xl:w-1/2 sm:w-full h-full px-8 sm:px-10 xl:pb-4 sm:pb-0 flex flex-wrap">
         <div class="flex flex-wrap items-start">
             <div class="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
@@ -206,59 +206,59 @@
                 <p class="pr-2.5 text-lg pb-2">Flight Included</p>
             </div>
         </div>
-        <div class="flex flex-wrap items-center py-4">
+        <div class="flex flex-row flex-wrap items-center py-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            <p class="pl-4"><strong>6 Regeneration Road, SE16 2NX, London</strong></p>
+            <p class="sm:pl-4"><strong>6 Regeneration Road, SE16 2NX, London</strong></p>
         </div>
 
 
 
-        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolorem ducimus eaque eos
+        <p class="py-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolorem ducimus eaque eos
             esse eveniet facilis iste minus, nihil, quibusdam quo repellat sed soluta ullam veritatis? Dicta, sint?
         </p>
-        <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolorem ducimus eaque eos
+        <p class="py-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolorem ducimus eaque eos
             esse eveniet facilis iste minus, nihil, quibusdam quo repellat sed soluta ullam veritatis? Dicta, sint?
         </p>
 
-        <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolorem ducimus eaque eos
+        <p class="py-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque commodi dolorem ducimus eaque eos
             esse eveniet facilis iste minus, nihil, quibusdam quo repellat sed soluta ullam veritatis? Dicta, sint?
         </p>
     </div>
 </section>
 
 <!-- Availability & Prices -->
-<section class="container mx-auto px-20 py-8">
+<section class="container mx-auto px-8 sm:px-20 py-8">
     <div class="flex justify-between border-b border-blue-200 pb-5">
         <h2 class="text-2xl">Availability & Prices</h2>
     </div>
 
-    <table class="w-full h-full px-20 pt-10">
+    <table class="w-full h-full px-8 sm:px-20 pt-10">
         <tr class="border-b-2 border-indigo-200">
-            <td class="font-bold text-lg py-4 pl-4">Package</td>
+            <td class="font-bold text-lg py-4 pl-4 hidden sm:block">Package</td>
             <td class="font-bold text-lg">From</td>
             <td class="font-bold text-lg">To</td>
             <td class="font-bold text-lg">Price</td>
         </tr>
         <tr class="border-b border-indigo-200">
-            <td class="py-4"></td>
+            <td class="py-4 hidden sm:block"></td>
+            <td class="py-4 pr-4">01-06-2020</td>
+            <td class="py-4 pr-4">31-12-2020</td>
+            <td class="py-4">€ 300 per night</td>
+        </tr>
+        <tr class="pb-2 border-b border-indigo-200">
+            <td class="py-4 hidden sm:block"></td>
             <td class="py-4">01-06-2020</td>
             <td class="py-4">31-12-2020</td>
             <td class="py-4">€ 300 per night</td>
         </tr>
         <tr class="pb-2 border-b border-indigo-200">
-            <td class="py-4"></td>
-            <td class="py-4">01-06-2020</td>
-            <td class="py-4">31-12-2020</td>
-            <td class="py-4">€ 300 per night</td>
-        </tr>
-        <tr class="pb-2 border-b border-indigo-200">
-            <td class="py-4"></td>
+            <td class="py-4 hidden sm:block"></td>
             <td class="py-4">01-06-2020</td>
             <td class="py-4">31-12-2020</td>
             <td class="py-4">€ 300 per night</td>
         </tr>
         <tr>
-            <td class="py-4"></td>
+            <td class="py-4 hidden sm:block"></td>
             <td class="py-4">01-06-2020</td>
             <td class="py-4">31-12-2020</td>
             <td class="py-4">€ 4000 total price</td>
@@ -267,7 +267,7 @@
 </section>
 
 <!-- Info -->
-<section class="container mx-auto px-20 py-8">
+<section class="container mx-auto px-8 sm:px-20 py-8">
     <div class="flex justify-between border-b border-blue-200 pb-5">
         <h2 class="text-2xl">Info</h2>
     </div>
@@ -275,31 +275,31 @@
     <table>
         <tr class=" border-b border-indigo-200">
             <td class="w-1/6 py-4 pl-4">Check-in</td>
-            <td class="pl-20 py-4">Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit
+            <td class="pl-12 sm:pl-20 py-4 text-justify">Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit
                 , sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis.
                 Ut accumsan dignissim rutrum.
             </td>
         </tr>
         <tr class=" border-b border-indigo-200">
             <td class="py-4 pl-4">Check-out</td>
-            <td class="pl-20 py-4">
+            <td class="pl-12 sm:pl-20 py-4 text-justify">
                 Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum.
             </td>
         </tr>
         <tr class=" border-b border-indigo-200">
             <td class="py-4 pl-4">Pets</td>
-            <td class="pl-20 py-4">
+            <td class="pl-12 sm:pl-20 py-4">
                 Not allowed
             </td>
         </tr>
         <tr class=" border-b border-indigo-200">
             <td class="py-4 pl-4">Policies</td>
-            <td class="pl-20 py-4">Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum.
+            <td class="pl-12 sm:pl-20 py-4 text-justify">Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum.
                 Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum. </td>
         </tr>
         <tr>
             <td class="py-4 pl-4">Fees</td>
-            <td class="pl-20 py-4">
+            <td class="pl-12 sm:pl-20 py-4 text-justify">
 
                 Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum.
                 Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum. </td>
@@ -308,16 +308,16 @@
 </section>
 
 <!-- Map -->
-<section class="container mx-auto px-20 py-8">
+<section class="container mx-auto px-8 sm:px-20 py-8">
     <div class="flex justify-between border-b border-blue-200 pb-5">
         <h2 class="text-2xl">Map</h2>
-        <h2 class="text-2xl pr-16 sm:hidden xl:block">Contact Details</h2>
+        <h2 class="text-2xl pr-16 hidden sm:hidden xl:block">Contact Details</h2>
     </div>
 
     <div class="flex flex-wrap">
-        <iframe class="pt-10 sm:hidden xl:block" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11628.751733874766!2d27.948302749999996!3d43.22651925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbg!4v1592215682178!5m2!1sen!2sbg" width="76.6%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        <iframe class="pt-10 sm:hidden xl:block w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11628.751733874766!2d27.948302749999996!3d43.22651925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbg!4v1592215682178!5m2!1sen!2sbg" width="76.6%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
         </iframe>
-        <iframe class="pt-10 xl:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11628.751733874766!2d27.948302749999996!3d43.22651925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbg!4v1592215682178!5m2!1sen!2sbg" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        <iframe class="pt-10 xl:hidden hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11628.751733874766!2d27.948302749999996!3d43.22651925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbg!4v1592215682178!5m2!1sen!2sbg" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
         </iframe>
 
         <div class="flex justify-between border-b border-blue-200 pb-5 py-10 sm:w-full xl:hidden">
@@ -347,17 +347,17 @@
 </section>
 
 <!-- Enquiry -->
-<section class="container mx-auto px-20 py-8">
+<section class="container mx-auto px-8 sm:px-20 py-8">
     <div class="flex justify-between border-b border-blue-200 pb-5">
         <h2 class="text-2xl">Enquiry</h2>
-        <h2 class="text-2xl pr-16 sm:hidden xl:block">Booking Terms</h2>
+        <h2 class="text-2xl pr-16 hidden xl:block">Booking Terms</h2>
     </div>
 
     <div class="py-10 flex flex-wrap">
-        <div class="xl:w-4/5 sm:w-full">
+        <div class="xl:w-4/5 sm:w-full w-full">
             <form action="/packagesaction" method="POST" id="package">
                 @csrf
-                <div class="flex flex-wrap">
+                <div class="flex flex-col sm:flex-wrap">
                     <div class="xl:w-1/2 xl:pr-10 sm:pr-0 pb-10 sm:w-full">
                         <fieldset class="flex xl:pr-10 sm:pr-0">
                             <input name="name" type="text" value="{{ old('name') }}" class="form-control flex-grow rounded" id="name" placeholder=" Name" required=" ">
@@ -373,7 +373,7 @@
                     </div>
 
                     <div class="xl:w-1/2 sm:w-full">
-                        <fieldset class="flex xl:pr-10 sm:pr-0 sm:pb-10">
+                        <fieldset class="flex xl:pr-10 sm:pr-0 sm:pb-10 pb-10">
                             <input name="email" type="email" value="{{ old('email') }}" class="form-control flex-grow rounded" id="email" placeholder=" Email" required=" ">
                             @error('email')
                             <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
@@ -388,7 +388,7 @@
                 </div>
 
                 <div class="flex flex-wrap">
-                    <div class="xl:w-1/2 sm:w-full xl:pr-10 sm:pr-0 pb-10">
+                    <div class="w-full xl:w-1/2 sm:w-full xl:pr-10 sm:pr-0 pb-10">
                         <fieldset class="flex xl:pr-10 sm:pr-0">
                             <input name="surname" type="text" value="{{ old('surname') }}" class="form-control flex-grow rounded" id="surname" placeholder=" Surname" required=" ">
                             @error('surname')
@@ -403,15 +403,15 @@
                     </div>
 
 
-                    <div class="xl:w-1/2 sm:w-full">
-                        <fieldset class="flex xl:pr-10 sm:pr-0 xl:pb-0 sm:pb-10">
+                    <div class="w-full xl:w-1/2 sm:w-full">
+                        <fieldset class="flex xl:pr-10 sm:pr-0 xl:pb-0 sm:pb-10 pb-10">
                             <input name="date1" type="text" class="form-control flex-grow rounded" id="datepicker1" value="{{ old('from') }}" placeholder="From 16.06.2020" required="">
                         </fieldset>
                     </div>
                 </div>
 
                 <div class="flex flex-wrap">
-                    <div class="xl:w-1/2 sm:w-full xl:pr-10 sm:pr-0 pb-10">
+                    <div class="w-full xl:w-1/2 sm:w-full xl:pr-10 sm:pr-0 pb-10">
                         <fieldset class="flex xl:pr-10 sm:pr-0">
                             <input name="phone" type="text" value="{{ old('phone') }}" class="form-control flex-grow rounded" id="phone" placeholder=" Phone" required="">
                             @error('phone')
@@ -425,8 +425,8 @@
                         </fieldset>
                     </div>
 
-                    <div class="xl:w-1/2 sm:w-full">
-                        <fieldset class="flex xl:pr-10 sm:pr-0 xl:pb-0 sm:pb-10">
+                    <div class="w-full xl:w-1/2 sm:w-full">
+                        <fieldset class="flex xl:pr-10 sm:pr-0 xl:pb-0 sm:pb-10 pb-10">
                             <input name="date2" type="text" class="form-control flex-grow rounded" id="datepicker2" value="{{ old('to') }}" placeholder=" To 16.06.2020" required="">
                         </fieldset>
                     </div>
@@ -448,7 +448,7 @@
                     </div>
                 </div>
 
-                <div class="pt-10">
+                <div class="pt-10 pb-10">
                     <fieldset>
                         <button type="submit" id="form-submit" value="Submit" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-400">Send Request</button>
                     </fieldset>
@@ -456,12 +456,12 @@
             </form>
         </div>
 
-        <div class="flex justify-between border-b border-blue-200 pb-5 sm:pt-10 sm:w-full xl:hidden">
+        <div class="flex justify-between border-b border-blue-200 pb-3 sm:pt-10 sm:w-full xl:hidden">
             <h2 class="text-2xl pr-16">Booking Terms</h2>
         </div>
 
         <div class="xl:w-1/5 sm:w-full">
-            <p class="text-justify xl:pt-0 sm:pt-8">Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a
+            <p class="text-justify xl:pt-0 sm:pt-8 pt-6">Donec dapibus semper sem, ac ultrices sem sagittis ut. Donec sit amet erat elit, sed pellentesque odio. In enim ligula, euismod a
                 adipiscing in, laoreet quis turpis. Ut accumsan dignissim rutrum. Mauris tincidunt sollicitudin mi eu congue. Suspendisse tincidunt
                 cursus porttitor. Fusce pharetra lorem vel dolor imperdiet malesuada. Ut porttitor gravida quam, eu alique.
             </p>
@@ -470,7 +470,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="px-20 xl:pt-10 sm:pt-0">
+<footer class="px-8 sm:px-20 xl:pt-10 sm:pt-0">
     <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>
