@@ -203,23 +203,23 @@
         </header>
     </section>
 
-    <section class="px-60 py-40 w-full flex flex-wrap">
-        <div class="w-3/5 pr-16">
+    <section class="px-8 sm:px-20 md:px-40 lg:px-60 py-24 lg:py-40 w-full flex flex-wrap">
+        <div class="w-full sm:w-3/5 sm:pr-16">
             <div class="flex justify-between border-b border-indigo-200 pb-5">
                 <h2 class="text-2xl">Checkout</h2>
             </div>
-            <h3 class="my-8 text-xl">Billing Details</h3>
+            <h3 class="my-4 sm:my-8 text-xl">Billing Details</h3>
             <form action="{{ route('checkout.store') }}" id="payment-form" method="POST">
                 @csrf
                 <div class="w-full flex flex-col">
-                    <label for="email" class="mt-6 py-1">Email Address</label>
+                    <label for="email" class="mt-3 sm:mt-6 py-1">Email Address</label>
                     <input type="email" id="email" name="email" value="{{ old('email') }}" required>
 
-                    <label for="name" class="mt-10 py-1">Name</label>
-                    <input type="text" id="name" name="name" value="{{ old('name') }}" class="mb-10" required>
+                    <label for="name" class="mt-4 sm:mt-10 py-1">Name</label>
+                    <input type="text" id="name" name="name" value="{{ old('name') }}" class="mb-4 sm:mb-10" required>
 
                     <label for="address" class="py-1">Address</label>
-                    <input type="text" id="address" name="address" value="{{ old('address') }}" class="mb-10" required>
+                    <input type="text" id="address" name="address" value="{{ old('address') }}" class="mb-4 sm:mb-10" required>
                 </div>
 
                 <div class="w-full flex flex-wrap">
@@ -232,7 +232,7 @@
                         <input type="text" id="province" name="province" value=" {{ old('province') }}" required>
                     </div>
 
-                    <div class="w-full flex flex-wrap mt-10">
+                    <div class="w-full flex flex-wrap mt-4 sm:mt-10">
                         <div class="w-1/2 flex flex-col pr-4">
                             <label for="phone" class="py-1">Phone</label>
                             <input type="text" id="phone" name="phone" value="{{ old('phone') }}" placeholder="123-456-789" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
@@ -246,7 +246,7 @@
                 <h3 class="my-8 text-xl">Payment Details</h3>
                 <div class="w-full flex flex-col">
                     <label for="name_on_card" class="py-1">Name on Card</label>
-                    <input type="text" id="name_on_card" name="name_on_card" value="{{ old('name_on_card') }}" class="mb-10" required>
+                    <input type="text" id="name_on_card" name="name_on_card" value="{{ old('name_on_card') }}" class="mb-4 sm:mb-10" required>
                 </div>
                 <div class="form-group">
                     <label for="card-element" class="py-1">
@@ -262,11 +262,50 @@
                     </div>
                 </div>
 
+                <div class="block sm:hidden w-full mt-4 sm:w-2/5 sm:pl-5">
+                    <div class="flex border-b border-indigo-200 pb-5">
+                        <h2 class="text-2xl">Your Order</h2>
+                    </div>
+                    <div class="w-full flex">
+                        <div class="flex w-4/5 py-10">
+                            <!-- product -->
+                            <div class="w-24">
+                                <img class="h-24" src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z" alt="">
+                            </div>
+                            <div class="flex flex-col justify-between ml-4 flex-grow">
+                                <span class="font-bold text-sm">Iphone 6S</span>
+                                <span class="text-red-500 text-xs">Apple</span>
+                                <a href="#" class="font-semibold hover:text-red-500 text-gray-500 text-xs">Remove</a>
+                            </div>
+                        </div>
+                        <div class="flex w-1/5 items-center">
+                            <input class="mx-2 border text-center w-8 h-8" type="text" value="1">
+                        </div>
+                    </div>
+                    <div class="flex border-b border-indigo-200 pb-5"></div>
+                    <div class="my-10">
+                        <div class="flex flex-row justify-between py-2">
+                            <p>Subtotal</p>
+                            <p>$5454</p>
+                        </div>
+                        <div class="flex flex-row justify-between py-2">
+                            <p>Tax 10%</p>
+                            <p>$1212</p>
+                        </div>
+
+                        <div class="flex flex-row justify-between py-2 text-xl">
+                            <p class="font-bold uppercase">Total</p>
+                            <p class="font-bold">$1514.00</p>
+                        </div>
+                        <div class="flex border-b border-indigo-200 pb-5 hidden sm:block"></div>
+                    </div>
+                </div>
+
                 <button id="complete-order" type="submit" class="w-full mt-10 bg-indigo-500 text-xl text-white border-none px-6 py-4 hover:bg-indigo-600">Complete Order</button>
             </form>
 
         </div>
-        <div class="w-2/5 pl-5">
+        <div class="hidden sm:block w-full mt-4 sm:w-2/5 sm:pl-5">
             <div class="flex border-b border-indigo-200 pb-5">
                 <h2 class="text-2xl">Your Order</h2>
             </div>
@@ -301,14 +340,14 @@
                     <p class="font-bold uppercase">Total</p>
                     <p class="font-bold">$1514.00</p>
                 </div>
-                <div class="flex border-b border-indigo-200 pb-5"></div>
+                <div class="flex border-b border-indigo-200 pb-5 hidden sm:block"></div>
             </div>
         </div>
     </section>
 
 
     <!-- Footer -->
-    <footer class="px-20 pt-40 sm:pt-8">
+    <footer class="px-8 sm:px-20 pt-20 md:pt-40 sm:pt-8">
         <div class="flex justify-center border-t border-blue-200 pt-16 sm:pt-8 py-16">
             <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
         </div>

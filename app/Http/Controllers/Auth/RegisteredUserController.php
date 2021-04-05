@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\TemporaryFile;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
@@ -43,6 +44,14 @@ class RegisteredUserController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]));
+
+        $temporaryFile =  TemporaryFile::where('folder', $request->avatar)->first();
+        if($temporaryFile) {
+            $user->addMedia(storage_path('app/public/avatars/tmp/' . $request->avatar . '/' .$temporaryFile->filename))
+                ->toMediaCollection('avatars');
+            rmdir(storage_path('app/public/avatars/tmp/' . $request->avatar));
+            $temporaryFile->delete();
+        }
 
         event(new Registered($user));
 

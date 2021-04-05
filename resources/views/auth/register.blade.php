@@ -45,6 +45,11 @@
                                 name="password_confirmation" required />
             </div>
 
+                <div class="mt-4">
+                    <x-label for="avatar" :value="__('Avatar')"/>
+                    <input type="file" name="avatar" id="avatar">
+                </div>
+
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
@@ -56,4 +61,20 @@
             </div>
         </form>
     </x-auth-card>
+
+    @section('scripts')
+        <script>
+            const inputElement = document.querySelector('input[id="avatar"]');
+            const pond = FilePond.create( inputElement );
+            FilePond.setOptions({
+                server: {
+                    url: '/upload',
+                    headers:{
+                        'X-CSRF_TOKEN': '{{ csrf_token() }}'
+                    }
+                }
+            });
+        </script>
+    @endsection
+
 </x-guest-layout>

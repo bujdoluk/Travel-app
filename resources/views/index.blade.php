@@ -116,7 +116,7 @@
             <input type="checkbox" class="hidden" id="menu-toggle">
 
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full bg-white bg-cover" id="menu">
-                <nav class="w-full h-full px-4 shadow-lg">
+                <nav class="w-full h-full px-4">
                     <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
                         <li>
                             <a href="/" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent
@@ -131,7 +131,7 @@
                     hover:border-indigo-400">Packages</a>
                         </li>
                         <li>
-                            <a href="/blog" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent
+                            <a href="/blogs" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent
                     hover:border-indigo-400">Blog</a>
                         </li>
                         <li class="relative flex flex-wrap items-center lg:p-4 py-3 px-0 block border-b-2 border-transparent
@@ -229,7 +229,7 @@
 
 
 <!-- Features / Cards -->
-<section class="container mx-auto pt-28 sm:pt-4 s:px-2 sm:px-20 sm:pt-10">
+<section class="container mx-auto pt-28 sm:pt-4 s:px-2 px-8 sm:px-20 sm:pt-10">
     <div class="flex justify-between border-b border-indigo-200 pb-5 s:pb-0">
         <h2 class="text-2xl s:pl-2">Featured vacations</h2>
         <a href="/packages" class="inline-flex">
@@ -559,7 +559,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="px-20 pt-12 sm:pt-8">
+<footer class="px-8 sm:px-20 pt-12 sm:pt-8">
     <div class="flex justify-center border-t border-blue-200 pt-16 sm:pt-8 py-16">
         <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
     </div>

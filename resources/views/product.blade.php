@@ -183,7 +183,7 @@
 
 
     <!-- Footer -->
-    <footer class="px-20 pt-20">
+    <footer class="px-8 sm:px-20 pt-20">
         <div class="flex justify-center border-t border-blue-200 pt-16 py-16">
             <p>Copyright © 2020 - <a href="#">Lukas Bujdos</a></p>
         </div>

@@ -50,4 +50,6 @@ Route::post('/cart', [\App\Http\Controllers\CartController::class, 'store'])->na
 Route::view('/checkout', 'checkout');
 Route::post('/checkout', [\App\Http\Controllers\CheckoutController::class, 'store'])->name('checkout.store');
 
+Route::post("/upload", [\App\Http\Controllers\UploadController::class, 'store']);
+
 require __DIR__.'/auth.php';
