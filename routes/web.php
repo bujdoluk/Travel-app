@@ -44,8 +44,6 @@ Route::post('/contactaction', [\App\Http\Controllers\MessageController::class, '
 Route::get('/shop', [\App\Http\Controllers\ShopController::class, 'index'])->name('shop.index');
 Route::get('/shop/{product}', [\App\Http\Controllers\ShopController::class, 'show'])->name('shop.show');
 
-Route::get('/add-to-cart/{product}', [\App\Http\Controllers\CartController::class, 'add'])->name('cart.add');
-Route::post('/cart', [\App\Http\Controllers\CartController::class, 'store'])->name('cart.store');
 
 Route::view('/checkout', 'checkout');
 Route::post('/checkout', [\App\Http\Controllers\CheckoutController::class, 'store'])->name('checkout.store');

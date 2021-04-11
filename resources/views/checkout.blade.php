@@ -203,6 +203,7 @@
         </header>
     </section>
 
+    <!-- Checkout -->
     <section class="px-8 sm:px-20 md:px-40 lg:px-60 py-24 lg:py-40 w-full flex flex-wrap">
         <div class="w-full sm:w-3/5 sm:pr-16">
             <div class="flex justify-between border-b border-indigo-200 pb-5">
@@ -266,23 +267,28 @@
                     <div class="flex border-b border-indigo-200 pb-5">
                         <h2 class="text-2xl">Your Order</h2>
                     </div>
-                    <div class="w-full flex">
-                        <div class="flex w-4/5 py-10">
-                            <!-- product -->
-                            <div class="w-24">
-                                <img class="h-24" src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z" alt="">
+                    <div class="w-full flex cartItems">
+                        <div class="cartRows w-full flex">
+                            <div class="flex w-3/5 py-10">
+                                <!-- product -->
+                                <div class="w-24">
+                                    <img class="h-24" src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z" alt="">
+                                </div>
+                                <div class="flex flex-col justify-between ml-4 flex-grow">
+                                    <span class="font-bold text-sm">Iphone 6S</span>
+                                    <span class="text-red-500 text-xs">Apple</span>
+                                    <a href="#" class="font-semibold hover:text-red-500 text-gray-500 text-xs remove">Remove</a>
+                                </div>
                             </div>
-                            <div class="flex flex-col justify-between ml-4 flex-grow">
-                                <span class="font-bold text-sm">Iphone 6S</span>
-                                <span class="text-red-500 text-xs">Apple</span>
-                                <a href="#" class="font-semibold hover:text-red-500 text-gray-500 text-xs">Remove</a>
+                            <span class="flex w-1/5 items-center price">$9.99</span>
+                            <div class="flex w-1/5 items-center">
+                                <input class="mx-2 border text-center w-8 h-8 quantity" type="text" value="1">
                             </div>
-                        </div>
-                        <div class="flex w-1/5 items-center">
-                            <input class="mx-2 border text-center w-8 h-8" type="text" value="1">
                         </div>
                     </div>
+
                     <div class="flex border-b border-indigo-200 pb-5"></div>
+
                     <div class="my-10">
                         <div class="flex flex-row justify-between py-2">
                             <p>Subtotal</p>
@@ -295,7 +301,7 @@
 
                         <div class="flex flex-row justify-between py-2 text-xl">
                             <p class="font-bold uppercase">Total</p>
-                            <p class="font-bold">$1514.00</p>
+                            <p class="font-bold total">$0</p>
                         </div>
                         <div class="flex border-b border-indigo-200 pb-5 hidden sm:block"></div>
                     </div>
@@ -303,29 +309,35 @@
 
                 <button id="complete-order" type="submit" class="w-full mt-10 bg-indigo-500 text-xl text-white border-none px-6 py-4 hover:bg-indigo-600">Complete Order</button>
             </form>
-
         </div>
-        <div class="hidden sm:block w-full mt-4 sm:w-2/5 sm:pl-5">
+
+        <!-- Your order -->
+        <div class="hidden sm:block w-full sm:w-2/5 sm:pl-5">
             <div class="flex border-b border-indigo-200 pb-5">
                 <h2 class="text-2xl">Your Order</h2>
             </div>
-            <div class="w-full flex">
-                <div class="flex w-4/5 py-10">
-                    <!-- product -->
-                    <div class="w-24">
-                        <img class="h-24" src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z" alt="">
+            <div class="w-full flex cartItems">
+                <div class="cartRows w-full flex">
+                    <div class="flex w-3/5 py-10">
+                        <!-- product -->
+                        <div class="w-24">
+                            <img class="h-24" src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z" alt="">
+                        </div>
+                        <div class="flex flex-col justify-between ml-4 flex-grow">
+                            <span class="font-bold text-sm">Iphone 6S</span>
+                            <span class="text-red-500 text-xs">Apple</span>
+                            <a href="#" class="font-semibold hover:text-red-500 text-gray-500 text-xs remove">Remove</a>
+                        </div>
                     </div>
-                    <div class="flex flex-col justify-between ml-4 flex-grow">
-                        <span class="font-bold text-sm">Iphone 6S</span>
-                        <span class="text-red-500 text-xs">Apple</span>
-                        <a href="#" class="font-semibold hover:text-red-500 text-gray-500 text-xs">Remove</a>
+                    <span class="flex w-1/5 items-center price">$9.99</span>
+                    <div class="flex w-1/5 items-center">
+                        <input class="mx-2 border text-center w-16 h-8 quantity" type="number" value="1">
                     </div>
-                </div>
-                <div class="flex w-1/5 items-center">
-                    <input class="mx-2 border text-center w-8 h-8" type="text" value="1">
                 </div>
             </div>
+
             <div class="flex border-b border-indigo-200 pb-5"></div>
+
             <div class="my-10">
                 <div class="flex flex-row justify-between py-2">
                     <p>Subtotal</p>
@@ -338,7 +350,7 @@
 
                 <div class="flex flex-row justify-between py-2 text-xl">
                     <p class="font-bold uppercase">Total</p>
-                    <p class="font-bold">$1514.00</p>
+                    <p class="font-bold total">$0</p>
                 </div>
                 <div class="flex border-b border-indigo-200 pb-5 hidden sm:block"></div>
             </div>
@@ -395,7 +407,59 @@
         </div>
     </section>
 
+    <!-- Checkout -->
+    <script>
+        if (document.readyState == 'loading'){
+            document.addEventListener('DOMContentLoaded', ready);
+        } else {
+            ready();
+        }
 
+        function ready() {
+            let removeCartItem = document.getElementsByClassName('remove');
+            for(let i = 0; i < removeCartItem.length; i++) {
+                let remove = removeCartItem[i];
+                remove.addEventListener('click', removeItem);
+            }
+
+            let quantityInputs = document.getElementsByClassName('quantity');
+            for(let i = 0; i < quantityInputs.length; i++){
+                let input = quantityInputs[i];
+                input.addEventListener('change', quantityChanged);
+            }
+        }
+
+        function removeItem(event) {
+            let removeClicked = event.target;
+            removeClicked.parentElement.parentElement.parentElement.remove();
+            updateTotal();
+        }
+
+        function quantityChanged(event) {
+            let input = event.target;
+            if(isNaN(input.value) || input.value <= 0){
+                input.value = 1;
+            }
+            updateTotal();
+        }
+
+        function updateTotal() {
+            let cartContainer = document.getElementsByClassName('cartItems')[0];
+            let cartRows = cartContainer.getElementsByClassName('cartRows');
+            let total = 0;
+            for(let i = 0; i < cartRows.length; i++) {
+                let cartRow = cartRows[i];
+                let priceElement = cartRow.getElementsByClassName('price')[0];
+                let quantityElement = cartRow.getElementsByClassName('quantity')[0];
+                let price = parseFloat(priceElement.innerText.replace('$', ''));
+                let quantity = quantityElement.value;
+                total = total + (price * quantity);
+            }
+            document.getElementsByClassName('total')[0].innerText = '$' + total;
+        }
+    </script>
+
+    <!-- Stripe -->
     <script>
         (function (){
             // Create a Stripe client
