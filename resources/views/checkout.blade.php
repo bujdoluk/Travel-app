@@ -282,7 +282,7 @@
                             </div>
                             <span class="flex w-1/5 items-center price">$9.99</span>
                             <div class="flex w-1/5 items-center">
-                                <input class="mx-2 border text-center w-8 h-8 quantity" type="text" value="1">
+                                <input class="mx-2 border text-center w-16 h-8 quantity" type="text" value="1">
                             </div>
                         </div>
                     </div>
@@ -301,7 +301,7 @@
 
                         <div class="flex flex-row justify-between py-2 text-xl">
                             <p class="font-bold uppercase">Total</p>
-                            <p class="font-bold total">$0</p>
+                            <span class="font-bold total">$0</span>
                         </div>
                         <div class="flex border-b border-indigo-200 pb-5 hidden sm:block"></div>
                     </div>
@@ -350,7 +350,7 @@
 
                 <div class="flex flex-row justify-between py-2 text-xl">
                     <p class="font-bold uppercase">Total</p>
-                    <p class="font-bold total">$0</p>
+                    <span class="font-bold total">$0</span>
                 </div>
                 <div class="flex border-b border-indigo-200 pb-5 hidden sm:block"></div>
             </div>
@@ -408,7 +408,7 @@
     </section>
 
     <!-- Checkout -->
-    <script>
+    {{--<script>
         if (document.readyState == 'loading'){
             document.addEventListener('DOMContentLoaded', ready);
         } else {
@@ -446,7 +446,7 @@
         function updateTotal() {
             let cartContainer = document.getElementsByClassName('cartItems')[0];
             let cartRows = cartContainer.getElementsByClassName('cartRows');
-            let total = 0;
+            var total = 0;
             for(let i = 0; i < cartRows.length; i++) {
                 let cartRow = cartRows[i];
                 let priceElement = cartRow.getElementsByClassName('price')[0];
@@ -455,9 +455,10 @@
                 let quantity = quantityElement.value;
                 total = total + (price * quantity);
             }
+            total = Math.round(total * 100) / 100;
             document.getElementsByClassName('total')[0].innerText = '$' + total;
         }
-    </script>
+    </script>--}}
 
     <!-- Stripe -->
     <script>

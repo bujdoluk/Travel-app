@@ -41,13 +41,16 @@ Route::get('/contacts', [\App\Http\Controllers\MessageController::class, 'index'
 Route::get('/contacts/create', [\App\Http\Controllers\MessageController::class, 'create'])->name('contacts.create');
 Route::post('/contactaction', [\App\Http\Controllers\MessageController::class, 'store'])->name('contacts.store');
 
+Route::post("/upload", [\App\Http\Controllers\UploadController::class, 'store']);
+
 Route::get('/shop', [\App\Http\Controllers\ShopController::class, 'index'])->name('shop.index');
 Route::get('/shop/{product}', [\App\Http\Controllers\ShopController::class, 'show'])->name('shop.show');
 
+Route::post('/add-to-cart', [\App\Http\Controllers\CartController::class, 'addToCart']);
 
 Route::view('/checkout', 'checkout');
 Route::post('/checkout', [\App\Http\Controllers\CheckoutController::class, 'store'])->name('checkout.store');
 
-Route::post("/upload", [\App\Http\Controllers\UploadController::class, 'store']);
+
 
 require __DIR__.'/auth.php';

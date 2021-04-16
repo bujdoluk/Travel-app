@@ -2,14 +2,13 @@
 
 
 namespace App\Http\Controllers;
-use Darryldecode\Cart\Cart;
-use http\Env\Request;
+
+use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
     public function addToCart(Request $request) {
-
-
+       $data = $request->all();
     }
 
 }
