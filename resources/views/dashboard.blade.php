@@ -1,9 +1,4 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
 
     <!-- component -->
     <div>
@@ -99,6 +94,10 @@
                         </div>
                     </div>
 
+                    <div class="font-medium text-gray-500">
+                        {{ Auth::user()->name }}
+                    </div>
+
                     <div class="flex items-center">
                         <div x-data="{ notificationOpen: false }" class="relative">
                             <button @click="notificationOpen = ! notificationOpen"
@@ -177,7 +176,7 @@
                                 <a href="/"
                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white">Home</a>
                                 <a href="/login"
-                                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white">Logout</a>
+                                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white">{{ Auth::logout() }}Log out</a>
                             </div>
                         </div>
                     </div>
@@ -215,7 +214,7 @@
                                         </div>
 
                                         <div class="mx-5">
-                                            <h4 class="text-2xl font-semibold text-gray-700">8,282</h4>
+                                            <h4 class="text-2xl font-semibold text-gray-700">{{$user}}</h4>
                                             <div class="text-gray-500">New Users</div>
                                         </div>
                                     </div>
@@ -259,7 +258,9 @@
                                         </div>
 
                                         <div class="mx-5">
-                                            <h4 class="text-2xl font-semibold text-gray-700">215,542</h4>
+
+                                            <h4 class="text-2xl font-semibold text-gray-700">{{$count}}</h4>
+
                                             <div class="text-gray-500">Available Products</div>
                                         </div>
                                     </div>
@@ -305,9 +306,9 @@
                                                     </div>
 
                                                     <div class="ml-4">
-                                                        <div class="text-sm leading-5 font-medium text-gray-900">John Doe
+                                                        <div class="text-sm leading-5 font-medium text-gray-900">
                                                         </div>
-                                                        <div class="text-sm leading-5 text-gray-500">john@example.com</div>
+                                                        <div class="text-sm leading-5 text-gray-500"></div>
                                                     </div>
                                                 </div>
                                             </td>
@@ -332,6 +333,7 @@
                                             </td>
                                         </tr>
                                         </tbody>
+
                                     </table>
                                 </div>
                             </div>

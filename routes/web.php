@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/dashboard', [\App\Http\Controllers\ShopController::class,'count' ])->middleware(['auth'])->name('dashboard');
 
 Route::view('/','index');
 Route::post('/', [\App\Http\Controllers\Controller::class, 'logout'])->name('logout');

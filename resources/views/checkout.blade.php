@@ -174,7 +174,8 @@
                             @if (Route::has('login'))
                                 @auth
                                     <li class="block">
-                                        <a href="{{ url('/dashboard') }}" class="text-gray-700">Dashboard</a>
+                                        <a href="{{ url('/dashboard') }}" class="text-gray-700 border-b-2 border-transparent
+                    hover:border-indigo-400 py-3 px-0 block">Dashboard</a>
                                         @else
                                             <a href="{{ route('login') }}" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent
                     hover:border-indigo-400">Login</a>
