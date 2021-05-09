@@ -49,6 +49,7 @@ Route::post('/add-to-cart', [\App\Http\Controllers\CartController::class, 'addTo
 Route::view('/checkout', 'checkout');
 Route::post('/checkout', [\App\Http\Controllers\CheckoutController::class, 'store'])->name('checkout.store');
 
-
+Route::get('/cart', [\App\Http\Controllers\CartController::class, 'index'])->name('cart.index');
+Route::post('/cart', [\App\Http\Controllers\CartController::class, 'store'])->name('cart.store');
 
 require __DIR__.'/auth.php';

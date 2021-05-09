@@ -162,9 +162,7 @@
 
 
     <section>
-        <form action="{{ url('add-to-cart') }}" method="POST" class="sm:container mx-auto w-full flex flex-col sm:flex-row pt-24 sm:py-24 md:py-32 lg:py-44 px-8 sm:px-24 md:px-36 lg:px-64">
-            @csrf
-            <input type="hidden" name="product_id" value="{{$product->id}}">
+        <div class="sm:container mx-auto w-full flex flex-col sm:flex-row pt-24 sm:py-24 md:py-32 lg:py-44 px-8 sm:px-24 md:px-36 lg:px-64">
             <div class="w-full sm:w-1/2">
                 <img src="/{{ $product->images }}" alt="Product">
             </div>
@@ -179,12 +177,16 @@
                 <p class="font-bold mb-7 text-xl">{{ $product->reviews }} reviews</p>
                 <input class="my-4" min="0" type="number" name="quantity" placeholder="Quantity" required="">
                 <div class="flex justify-center sm:text-center lg:text-left">
-                    <a href="{{ route('shop.show', $product->id) }}" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-600">
-                        Add to Shopping Cart
-                    </a>
+                    <form action="{{route('cart.store')}}" method="POST">
+                        @csrf
+                        <input type="hidden" name="id" value="{{ $product->id }}">
+                        <input type="hidden" name="name" value="{{ $product->name }}">
+                        <input type="hidden" name="price" value="{{ $product->price }}">
+                        <button type="submit" class="bg-indigo-500 text-white border-none rounded px-4 py-2 hover:bg-indigo-600">Add to Cart</button>
+                    </form>
                 </div>
             </div>
-        </form>
+        </div>
     </section>
 
 
