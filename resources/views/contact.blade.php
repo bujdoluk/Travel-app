@@ -161,7 +161,7 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
+    <img src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
     <p class="absolute inset-56 text-center text-indigo-500 font-bold text-6xl">Contact Us</p>
 </section>
 
@@ -252,7 +252,7 @@
         </div>
 
         <div class="w-2/5">
-            <img class="block w-full h-auto" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/team_01.jpg" alt="Image">
+            <img class="block w-full h-auto" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/team_01.jpg" alt="Image">
             <p class="text-center py-6 font-bold text-2xl">John Doe</p>
         </div>
     </div>
@@ -291,7 +291,7 @@
 
             <!--Body-->
             <div class="flex flex-wrap flex-col items-center">
-                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product">
+                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product">
                 <p class="text-4xl py-2">FLAT 30% OFF</p>
                 <p class="py-2">Coupon code - GET30</p>
                 <p>* Terms & Conditions apply</p>

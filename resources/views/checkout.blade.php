@@ -392,7 +392,7 @@
 
                 <!--Body-->
                 <div class="flex flex-wrap flex-col items-center">
-                    <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product">
+                    <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product">
                     <p class="text-4xl py-2">FLAT 30% OFF</p>
                     <p class="py-2">Coupon code - GET30</p>
                     <p>* Terms & Conditions apply</p>

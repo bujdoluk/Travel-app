@@ -196,17 +196,17 @@
                 <div class="swiper-slide relative w-screen h-auto">
                     <p class="absolute py-40 sm:py-20 sm:px-20 px-40 text-center text-white text-5xl sm:text-3xl">Visit your favourite location</p>
                     <p class="absolute py-60 sm:py-28 sm:px-20 px-40 text-center text-white text-3xl sm:text-xl">Lorem Ipsum dolorem</p>
-                    <img class="w-screen" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/slider-image-1-1920x600.jpg" alt="Image">
+                    <img class="w-screen" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/slider-image-1-1920x600.jpg" alt="Image">
                 </div>
                 <div class="swiper-slide relative w-screen h-auto">
                     <p class="absolute py-40 sm:py-20 sm:px-20 px-40 text-center text-white text-5xl sm:text-3xl">Visit your favourite location</p>
                     <p class="absolute py-60 sm:py-28 sm:px-20 px-40 text-center text-white text-3xl sm:text-xl">Lorem Ipsum dolorem</p>
-                    <img class="w-screen" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/slider-image-2-1920x600.jpg" alt="Image">
+                    <img class="w-screen" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/slider-image-2-1920x600.jpg" alt="Image">
                 </div>
                 <div class="swiper-slide relative w-screen h-auto">
                     <p class="absolute py-40 sm:py-20 sm:px-20 px-40 text-center text-white text-5xl sm:text-3xl">Visit your favourite location</p>
                     <p class="absolute py-60 sm:py-28 sm:px-20 px-40 text-center text-white text-3xl sm:text-xl">Lorem Ipsum dolorem</p>
-                    <img class="w-screen" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/slider-image-3-1920x600.jpg" alt="Image">
+                    <img class="w-screen" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/slider-image-3-1920x600.jpg" alt="Image">
                 </div>
             </div>
             <!-- If we need navigation buttons -->
@@ -245,7 +245,7 @@
             <div class="my-1 sm:my-0 s:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                 <article class="overflow-hidden rounded-b-lg shadow-lg">
                     <a href="packages">
-                        <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-1-370x270.jpg">
+                        <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-1-370x270.jpg">
                     </a>
                     <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                         <h1 class="text-lg">
@@ -278,7 +278,7 @@
                         NEW
                     </div>
                     <a href="#">
-                        <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-2-370x270.jpg">
+                        <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-2-370x270.jpg">
                     </a>
 
                     <header class="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -309,7 +309,7 @@
             <div class="my-1 sm:my-0 w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                 <article class="overflow-hidden rounded-b-lg shadow-lg">
                     <a href="#">
-                        <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg">
+                        <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg">
                     </a>
 
                     <header class="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -367,14 +367,14 @@
                 </div>
             </div>
             <div class="lg:w-1/2 md:flex md:flex-col md:justify-center">
-                <img class="sm:hidden lg:block" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/about-1-570x350.jpg" alt="Image">
+                <img class="sm:hidden lg:block" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/about-1-570x350.jpg" alt="Image">
             </div>
         </div>
     </div>
 </section>
 
 <!-- Blog Posts -->
-<section class="container mx-auto sm:w-full sm:h-full md:flex-row md:flex-wrap py-16 sm:py-8 bg-no-repeat bg-cover bg-center bg-auto h-auto overflow-hidden bg-fixed" style="background-image: url(https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/other-image-fullscren-1-1920x900.jpg)">
+<section class="container mx-auto sm:w-full sm:h-full md:flex-row md:flex-wrap py-16 sm:py-8 bg-no-repeat bg-cover bg-center bg-auto h-auto overflow-hidden bg-fixed" style="background-image: url(https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/other-image-fullscren-1-1920x900.jpg)">
     <div class="px-8 sm:px-20">
         <div class="flex justify-between border-b border-white pb-5">
             <h2 class="text-2xl text-white">Latest Blog Posts</h2>
@@ -390,7 +390,7 @@
                 <div class="my-1 sm:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                     <article class="shadow-lg bg-white">
                         <a href="/blog">
-                            <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-1-370x270.jpg">
+                            <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/blog-1-370x270.jpg">
                         </a>
 
                         <p class="text-sm p-4 md:px-4 text-center text-lg hover:text-indigo-500"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</a></p>
@@ -412,7 +412,7 @@
                 <div class="my-1  sm:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                     <article class="shadow-lg bg-white">
                         <a href="#">
-                            <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-2-370x270.jpg">
+                            <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/blog-2-370x270.jpg">
                         </a>
 
                         <p class="text-sm p-4 md:px-4 text-center text-lg hover:text-indigo-500"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</a></p>
@@ -434,7 +434,7 @@
                 <div class="my-1 sm:w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/3">
                     <article class="shadow-lg bg-white">
                         <a href="#">
-                            <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-3-370x270.jpg">
+                            <img alt="Image" class="block h-auto w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/blog-3-370x270.jpg">
                         </a>
 
                         <p class="text-sm p-4 md:px-4 text-center text-lg hover:text-indigo-500"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit hic</a></p>
@@ -592,7 +592,7 @@
 
             <!--Body-->
             <div class="flex flex-wrap flex-col items-center">
-                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product">
+                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product">
                 <p class="text-4xl py-2">FLAT 30% OFF</p>
                 <p class="py-2">Coupon code - GET30</p>
                 <p>* Terms & Conditions apply</p>

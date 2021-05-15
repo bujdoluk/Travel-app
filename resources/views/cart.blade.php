@@ -181,7 +181,7 @@
                     <div class="flex w-2/5">
                         <!-- product 1 -->
                         <div class="w-24">
-                            <img class="h-24" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-1-370x270.jpg" alt="Product 1">
+                            <img class="h-24" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-1-370x270.jpg" alt="Product 1">
                         </div>
                         <div class="flex flex-col justify-between ml-4 flex-grow">
                             <span class="font-bold text-sm">Iphone 6S</span>
@@ -206,7 +206,7 @@
                 <div class="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
                     <div class="flex w-2/5"> <!-- product 2 -->
                         <div class="w-24">
-                            <img class="h-24" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-2-370x270.jpg" alt="Product 2">
+                            <img class="h-24" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-2-370x270.jpg" alt="Product 2">
                         </div>
                         <div class="flex flex-col justify-between ml-4 flex-grow">
                             <span class="font-bold text-sm">Xiaomi Mi 20000mAh</span>
@@ -231,7 +231,7 @@
                 <div class="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
                     <div class="flex w-2/5"> <!-- product 3 -->
                         <div class="w-24">
-                            <img class="h-24" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product 3">
+                            <img class="h-24" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product 3">
                         </div>
                         <div class="flex flex-col justify-between ml-4 flex-grow">
                             <span class="font-bold text-sm">Airpods</span>
@@ -323,7 +323,7 @@
 
                 <!--Body-->
                 <div class="flex flex-wrap flex-col items-center">
-                    <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product">
+                    <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product">
                     <p class="text-4xl py-2">FLAT 30% OFF</p>
                     <p class="py-2">Coupon code - GET30</p>
                     <p>* Terms & Conditions apply</p>

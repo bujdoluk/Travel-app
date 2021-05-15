@@ -166,7 +166,7 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20  h-full w-full opacity-50 relative">
+    <img src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20  h-full w-full opacity-50 relative">
     <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Our Company</p>
 </section>
 
@@ -179,7 +179,7 @@
     <div class="xl:flex xl:flex-row pt-16 sm:flex sm:flex-col md:w-full">
         <!-- Image -->
         <div class="xl:w-full sm:w-full sm:pb-6">
-            <img class="xl:w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/about-1-570x350.jpg" alt="Image">
+            <img class="xl:w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/about-1-570x350.jpg" alt="Image">
         </div>
         <!-- Content -->
         <div class="xl:w-full sm:w-full px-6">
@@ -262,7 +262,7 @@
 
             <!--Body-->
             <div class="flex flex-wrap flex-col items-center">
-                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product">
+                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product">
                 <p class="text-4xl py-2">FLAT 30% OFF</p>
                 <p class="py-2">Coupon code - GET30</p>
                 <p>* Terms & Conditions apply</p>

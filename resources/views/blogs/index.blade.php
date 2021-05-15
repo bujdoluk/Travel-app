@@ -166,7 +166,7 @@
 
 <!-- Background Image -->
 <section class="relative">
-    <img src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
+    <img src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/heading-2-1920x500.jpg" alt="Image" class="pt-20 h-full w-full opacity-50 relative">
     <p class="absolute inset-24 sm:inset-36 md:inset-44 lg:inset-56 text-center text-indigo-500 font-bold text-2xl sm:text-4xl md:text-6xl">Blog</p>
 </section>
 
@@ -194,7 +194,7 @@
                 @foreach($blogs as $blog)
                     <div class="w-full">
                         <a href="{{ route('blogs.show', $blog->slug) }}">
-                            <img class="sm:w-full xl:w-full" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/blog-1-370x270.jpg" alt="Blog 1">
+                            <img class="sm:w-full xl:w-full" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/blog-1-370x270.jpg" alt="Blog 1">
                             <h2 class="px-10 py-8 text-center text-lg text-indigo-500 font-bold">{{$blog->title}}</h2>
                         </a>
 
@@ -266,7 +266,7 @@
 
             <!--Body-->
             <div class="flex flex-wrap flex-col items-center">
-                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/Travel-website/master/public/images/product-3-370x270.jpg" alt="Product">
+                <img class="h-60" src="https://raw.githubusercontent.com/bujdoluk/travelapp/master/public/images/product-3-370x270.jpg" alt="Product">
                 <p class="text-4xl py-2">FLAT 30% OFF</p>
                 <p class="py-2">Coupon code - GET30</p>
                 <p>* Terms & Conditions apply</p>
